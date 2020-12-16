@@ -159,7 +159,7 @@ header{
     padding-top: 2rem;
     background-color: white;
     border-radius: 2%;
-    padding-bottom: 0rem;
+    padding-bottom: 0;
 }
 
 .btn-social-author{
@@ -325,7 +325,7 @@ footer .footer-below {
         INFLUENTIAL PEOPLE SECTION
 --------------------------------------*/
 #people{
-    margin-top: 0%;
+    margin-top: 0;
     margin-bottom: 3%;
     padding-top: 4%;
     padding-bottom: 3%;
@@ -358,7 +358,7 @@ footer .footer-below {
 .people-picture3{
     width: 350px;
     height: 250px;
-    margin-left: 0%;
+    margin-left: 0;
 }
 
 /*-------------------------------------
@@ -427,8 +427,14 @@ footer .footer-below {
 
 .IP-picture1{
     width: 400px;
-    height: 300px;
-    margin-top: 19%;
+    height: 280px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.IP-picture2{
+    width: 400px;
+    height: 200px;
+    margin-top: 0;
     margin-bottom: 15%;
 }
 
@@ -437,22 +443,73 @@ footer .footer-below {
            W3C SECTION
 --------------------------------------*/
 #W3C{
-    padding-bottom: 4%;
+    margin-top: 0;
+    margin-bottom: 7%;
 }
 
 .summary-W3C{
+    margin-top: 5%;
     margin-bottom: 5%;
     margin-left: 5%;
     margin-right: 5%;
 }
 
 .W3C-picture1{
+    width: 250px;
+    height: 180px;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+.W3C-picture2{
     width: 400px;
     height: 300px;
-    margin-top: 49%;
-    margin-bottom: 15%;
+    margin-top: 5%;
+    margin-left: -6%;
+    margin-bottom: 2%;
+}
+.W3C-picture3{
+    width: 290px;
+    height: 300px;
+    margin-top: 5%;
+    margin-left: 6%;
+    margin-bottom: 2%;
+}
+/*-------------------------------------
+            ICANN SECTION
+    --------------------------------------*/
+#ICANN{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.summary-ICANN{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.ICANN-picture1{
+    width: 400px;
+    height: 250px;
+    margin-top: 5%;
+    margin-left: 6%;
+    margin-bottom: 2%;
 }
 
+.ICANN-picture2{
+    width: 400px;
+    height: 250px;
+    margin-top: 5%;
+    margin-left: 6%;
+    margin-bottom: 2%;
+}
+.ICANN-picture3{
+    width: 400px;
+    height: 250px;
+    margin-top: 5%;
+    margin-left: 6%;
+    margin-bottom: 2%;
+}
 /*-------------------------------------
             SMALL VIEWS
 --------------------------------------*/
@@ -497,7 +554,7 @@ footer .footer-below {
         padding-top: 2rem;
         background-color: white;
         border-radius: 2%;
-        padding-bottom: 0rem;
+        padding-bottom: 0;
     }
     .btn-social-author{
         color: #2196F3;
@@ -505,19 +562,19 @@ footer .footer-below {
     }
 
     /*-------------------------------------
-            HISTORY SECTION
+            ICANN SECTION
     --------------------------------------*/
-    #history{
+    #ICANN{
         margin-top: 5%;
         margin-bottom: 5%;
     }
-    .summary-history{
+    .summary-ICANN{
         margin-top: 5%;
         margin-bottom: 5%;
         margin-left: 5%;
         margin-right: 5%;
     }
-    .history-picture1{
+    .ICANN-picture1{
         width: 450px;
         height: 300px;
         margin-top: 5%;
@@ -525,7 +582,11 @@ footer .footer-below {
         margin-bottom: 2%;
     }
 
-    .history-picture2{
+    .ICANN-picture2{
+        width: 180px;
+        height: 180px;
+    }
+    .ICANN-picture3{
         width: 180px;
         height: 180px;
     }
@@ -634,7 +695,7 @@ footer .footer-below {
         width: 400px;
         height: 300px;
         margin-top: 2%;
-        margin-bottom: 0%;
+        margin-bottom: 0;
         margin-left: 11%;
     }
 
