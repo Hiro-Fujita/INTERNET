@@ -1,0 +1,680 @@
+body {
+    overflow-x: hidden;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+ul, p {
+    font-size: 20px;
+}
+
+p.small {
+    font-size: 16px;
+}
+
+h1,
+h2
+{
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+hr{
+    margin: 15px auto 25px;
+    padding: 0;
+}
+
+/*---------------------------
+            Header
+----------------------------*/
+.navbar{
+    font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.menu{
+    background: darkseagreen;
+    height: 100px;
+    width: 100%;
+}
+
+#menu .container{
+    padding-top: 1%;
+}
+
+.container .navbar .navbar-brand{
+    font-size: 2em;
+}
+
+.container .navbar a:hover,
+.container .navbar a:active,
+.container .navbar a:focus{
+    color: forestgreen;
+}
+.container .navbar .navbar-collapse .navbar-nav .nav-item a:hover{
+    color: darkgreen;
+}
+
+.menu .container{
+    height: 100%;
+    padding-top: 1.2%;
+}
+
+/*----------Social Icons---------------*/
+
+
+.btn-social {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 29px;
+    margin-left: 0.5em;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active {
+    outline: 0;
+}
+
+
+.btn-outline {
+    border: solid 3px #fff;
+    font-size: 20px;
+    color: #fff;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+    border: solid 2px #fff;
+    color: forestgreen;
+    background: #fff;
+}
+
+/*---------------------------
+            Introduction
+----------------------------*/
+header{
+    background: url(../images/internet.jpg) no-repeat top center/cover;
+    padding-top: 8%;
+    padding-bottom: 3%;
+    height: 500px;
+}
+
+
+.intro-text h1{
+    color: white;
+    margin-top: 10%;
+    font-size: 50px;
+}
+
+
+/*---------------------------
+         About Section
+----------------------------*/
+#about{
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+#about .col-lg-12 hr{
+    border: 0;
+    max-width: 260px;
+    border-top: solid 4px darkolivegreen;
+}
+#about h3{
+    color: darkolivegreen;
+}
+
+.summary{
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+/*---------------------------
+         Author section
+----------------------------*/
+#author{
+    background-color: #a3a7ab57;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+#author .author-container{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.author-container{
+    padding-top: 2rem;
+    background-color: white;
+    border-radius: 2%;
+    padding-bottom: 0rem;
+}
+
+.btn-social-author{
+    color: darkolivegreen;
+    border: solid 2px darkolivegreen;
+
+}
+
+.author-picture{
+    border-radius: 50%;
+}
+
+.btn-social-author:hover,
+.btn-social-author:focus,
+.btn-social-author:active,
+.btn-social-author.active {
+    border: solid 2px grey;
+    color: grey;
+    background: gainsboro;
+}
+
+
+#author .col-lg-12 hr{
+    border: 0;
+    max-width: 260px;
+    border-top: solid 4px darkolivegreen;
+}
+
+section:nth-of-type(2) .bar {
+    align-items: flex-end;
+    background-color: #a2a5a5;
+    color: #090808;
+    font-size: 15pt;
+    height: 30px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.flex {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section .flex-50-gt-sm {
+    display: block;
+}
+
+section:nth-of-type(2) .bar:nth-child(1) .fill {
+    transition: 1.1s 0.2s width ease-in-out;
+}
+
+section:nth-of-type(2) .bar.fill {
+    left: 0;
+    position: absolute;
+    top: 0;
+    background-color: darkseagreen;
+    opacity: 1;
+    height: 30px;
+}
+
+section:nth-of-type(2) .bar .tag {
+    left: 0;
+    position: absolute;
+    top: 0;
+    background-color: #343a40;
+    color: #fff;
+    height: 30px;
+    width: 110px;
+    margin-bottom: 55px;
+}
+
+section:nth-of-type(2) .bar span {
+    padding: 0 15px 0 0;
+    display: initial;
+    z-index: 1;
+}
+
+/*---------------------------
+         Footer Section
+----------------------------*/
+footer {
+    color: #fff;
+}
+
+footer h3 {
+    margin-bottom: 30px;
+}
+
+footer .footer-above {
+    padding-top: 50px;
+    background-color: darkseagreen;
+}
+
+footer .footer-col {
+    margin-bottom: 50px;
+}
+
+footer .footer-below {
+    padding: 25px 0;
+    background-color: darkseagreen;
+}
+
+.form-group .btn-success{
+    background: darkseagreen;
+    border: #ffffff;
+}
+
+/*---------------------------
+      Scroll Top button
+----------------------------*/
+
+.scroll-top {
+    z-index: 1049;
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    width: 50px;
+    height: 50px;
+}
+
+.scroll-top .btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.scroll-top .btn:focus {
+    outline: 0;
+}
+/*-------------------------------------
+            HISTORY SECTION
+--------------------------------------*/
+#history{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.summary-history{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.history-picture1{
+    width: 450px;
+    height: 300px;
+    margin-top: 9%;
+    margin-right: auto;
+    margin-left: 25%;
+    margin-bottom: 15%;
+}
+
+.history-picture2{
+    width: 400px;
+    height: 400px;
+    margin-left: 30%;
+}
+
+/*-------------------------------------
+        INFLUENTIAL PEOPLE SECTION
+--------------------------------------*/
+#people{
+    margin-top: 0%;
+    margin-bottom: 3%;
+    padding-top: 4%;
+    padding-bottom: 3%;
+}
+#people h2{
+    color: black;
+}
+.summary-people{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: black;
+}
+.people-picture1{
+    width: 500px;
+    height: 350px;
+    margin-top: 9%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15%;
+}
+
+.people-picture2{
+    width: 350px;
+    height: 250px;
+    margin-left: 15%;
+    margin-bottom: 10%;
+}
+.people-picture3{
+    width: 350px;
+    height: 250px;
+    margin-left: 0%;
+}
+
+/*-------------------------------------
+        IMPORTANT EVENTS SECTION
+--------------------------------------*/
+#events {
+    background-color: darkseagreen;
+    margin-top: 3%;
+    margin-bottom: 7%;
+}
+.summary-events{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: white;
+}
+
+.events-picture1{
+    width: 400px;
+    height: 350px;
+    margin-top: 9%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15%;
+}
+
+.events-picture2{
+    width: 280px;
+    height: 240px;
+    margin-left: 15%;
+    margin-bottom: 10%;
+}
+.events-picture3{
+    width: 150px;
+    height: 100px;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.events-picture4{
+    width: 150px;
+    height: 100px;
+    margin-left: 5%;
+}
+
+/*-------------------------------------
+            IP SECTION
+--------------------------------------*/
+#IP{
+    margin-top: 3%;
+    margin-bottom: 4%;
+    background-color: darkseagreen;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+#IP h2{
+    color: white;
+}
+.summary-IP{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: white;
+}
+
+.IP-picture1{
+    width: 400px;
+    height: 300px;
+    margin-top: 19%;
+    margin-bottom: 15%;
+}
+
+
+/*-------------------------------------
+           W3C SECTION
+--------------------------------------*/
+#W3C{
+    padding-bottom: 4%;
+}
+
+.summary-W3C{
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.W3C-picture1{
+    width: 400px;
+    height: 300px;
+    margin-top: 49%;
+    margin-bottom: 15%;
+}
+
+/*-------------------------------------
+            SMALL VIEWS
+--------------------------------------*/
+@media(max-width:767px) {
+
+    /*NAVIGATION BAR*/
+    .container .navbar .navbar-brand{
+        font-size: 1.25em;
+    }
+    header .container .row{
+        margin-top: 15px;
+    }
+
+    /*SOCIAL ICONS*/
+    .btn-social {
+        width: 26px;
+        height: 26px;
+        border: 2px solid #fff;
+        border-radius: 100%;
+        text-align: center;
+        font-size: 14px;
+        line-height: 18px;
+        transition: height 0.5s ease-out;
+    }
+
+
+    /*---------------------------
+             Author section
+    ----------------------------*/
+    #author{
+        background-color: #a3a7ab57;
+        padding-top: 4%;
+        padding-bottom: 4%;
+    }
+
+    #author .author-container{
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+    .author-container{
+        padding-top: 2rem;
+        background-color: white;
+        border-radius: 2%;
+        padding-bottom: 0rem;
+    }
+    .btn-social-author{
+        color: #2196F3;
+        border: solid 2px #2196F3;
+    }
+
+    /*-------------------------------------
+            HISTORY SECTION
+    --------------------------------------*/
+    #history{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .summary-history{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .history-picture1{
+        width: 450px;
+        height: 300px;
+        margin-top: 5%;
+        margin-left: 6%;
+        margin-bottom: 2%;
+    }
+
+    .history-picture2{
+        width: 180px;
+        height: 180px;
+    }
+
+    /*-------------------------------------
+            IMPORTANT PEOPLE SECTION
+    --------------------------------------*/
+    #people{
+        margin-top: 5%;
+        margin-bottom: 3%;
+        padding-top: 4%;
+        padding-bottom: 3%;
+    }
+    .summary-people{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .people-picture1{
+        width: 200px;
+        height: 180px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 7%;
+        margin-top: 1%;
+    }
+
+    .people-picture2{
+        width: 200px;
+        height: 160px;
+        margin-top: 4%;
+
+    }
+
+    .people-picture3{
+        width: 300px;
+        height: 200px;
+        margin-left: 17%;
+    }
+
+    /*-------------------------------------
+            IMPORTANT EVENTS SECTION
+    --------------------------------------*/
+    #events {
+        margin-top: 5%;
+        margin-bottom: 7%;
+    }
+    .summary-events{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .events-picture1{
+        width: 150px;
+        height: 100px;
+        margin-bottom: 5%;
+        margin-left: 12%;
+        margin-top: 2%;
+    }
+
+    .events-picture2{
+        width: 150px;
+        height: 70px;
+        margin-top: 5%;
+        margin-left: 15%;
+        margin-bottom: 10%;
+    }
+    .events-picsture3{
+        width: 150px;
+        height: 100px;
+        margin-top: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .events-picture4{
+        width: 150px;
+        height: 100px;
+        margin-left: 5%;
+    }
+
+    /*-------------------------------------
+                DNS SECTION
+    --------------------------------------*/
+    #dns{
+        margin-top: 3%;
+        margin-bottom: 4%;
+        background-color: darkseagreen;
+        padding-top: 6%;
+        padding-bottom: 4%;
+    }
+    #dns h2{
+        color: white;
+    }
+    .summary-dns{
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        color: white;
+    }
+
+    .dns-picture1{
+        width: 400px;
+        height: 300px;
+        margin-top: 2%;
+        margin-bottom: 0%;
+        margin-left: 11%;
+    }
+
+
+    /*-------------------------------------
+               PROTOCOLS SECTION
+    --------------------------------------*/
+    #protocols{
+        padding-top: 2%;
+    }
+
+    .summary-protocols{
+        margin-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .protocols-picture1{
+        width: 400px;
+        height: 300px;
+        margin-top: 2%;
+        margin-left: 7%;
+        margin-bottom: 2%;
+    }
+
+
+
+    /*-------------------------------------
+                 DROPABLE MENU
+      --------------------------------------*/
+
+    .navbar-nav{
+        background-color: darkseagreen;
+    }
+
+}
+
+@media(max-width:300px) {
+    /*NAVIGATION BAR*/
+    .container .navbar .navbar-brand {
+        font-size: 0.85em;
+    }
+}
